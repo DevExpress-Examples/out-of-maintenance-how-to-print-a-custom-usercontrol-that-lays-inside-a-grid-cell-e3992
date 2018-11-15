@@ -1,3 +1,17 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomControl.cs](./CS/CustomControlInGrid/CustomRepositoryItem/CustomControl.cs) (VB: [CustomControl.vb](./VB/CustomControlInGrid/CustomRepositoryItem/CustomControl.vb))
+* [CustomControlPainter.cs](./CS/CustomControlInGrid/CustomRepositoryItem/CustomControlPainter.cs) (VB: [CustomControlPainter.vb](./VB/CustomControlInGrid/CustomRepositoryItem/CustomControlPainter.vb))
+* [CustomControlViewInfo.cs](./CS/CustomControlInGrid/CustomRepositoryItem/CustomControlViewInfo.cs) (VB: [CustomControlViewInfo.vb](./VB/CustomControlInGrid/CustomRepositoryItem/CustomControlViewInfo.vb))
+* [CustomRepositoryItem.cs](./CS/CustomControlInGrid/CustomRepositoryItem/CustomRepositoryItem.cs) (VB: [CustomRepositoryItem.vb](./VB/CustomControlInGrid/CustomRepositoryItem/CustomRepositoryItem.vb))
+* [EditorFinder.cs](./CS/CustomControlInGrid/CustomRepositoryItem/EditorFinder.cs) (VB: [EditorFinder.vb](./VB/CustomControlInGrid/CustomRepositoryItem/EditorFinder.vb))
+* [IEditValue.cs](./CS/CustomControlInGrid/CustomRepositoryItem/IEditValue.cs) (VB: [IEditValue.vb](./VB/CustomControlInGrid/CustomRepositoryItem/IEditValue.vb))
+* [IExport.cs](./CS/CustomControlInGrid/CustomRepositoryItem/IExport.cs) (VB: [IExport.vb](./VB/CustomControlInGrid/CustomRepositoryItem/IExport.vb))
+* [Form1.cs](./CS/CustomControlInGrid/Form1.cs) (VB: [Form1.vb](./VB/CustomControlInGrid/Form1.vb))
+* [Program.cs](./CS/CustomControlInGrid/Program.cs) (VB: [Program.vb](./VB/CustomControlInGrid/Program.vb))
+* [ProjectLayoutControl.cs](./CS/CustomControlInGrid/ProjectLayoutControl.cs) (VB: [ProjectLayoutControl.vb](./VB/CustomControlInGrid/ProjectLayoutControl.vb))
+<!-- default file list end -->
 # How to print a custom UserControl that lays inside a grid cell
 
 
