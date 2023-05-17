@@ -97,10 +97,10 @@ namespace CustomControlInGrid {
             ControlType = (item as CustomRepositoryItem).ControlType;
         }
 
-        public override IVisualBrick GetBrick(PrintCellHelperInfo info) {
-            IVisualBrick brick = base.GetBrick(info);
+        public override VisualBrick GetBrick(PrintCellHelperInfo info) {
+            VisualBrick brick = base.GetBrick(info);
             info.Graph.DrawBrick(brick, info.Rectangle);
-            return (DrawControl as IExport).GetBrick(info);
+            return (DrawControl as IExport).GetBrick(info) as VisualBrick;
         }
     }
 }
