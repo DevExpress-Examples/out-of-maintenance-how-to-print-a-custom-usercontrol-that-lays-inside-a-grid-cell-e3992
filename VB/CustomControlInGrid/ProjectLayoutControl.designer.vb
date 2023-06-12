@@ -19,7 +19,7 @@ Namespace CustomControlInGrid
             MyBase.Dispose(disposing)
         End Sub
 
-'#Region "Component Designer generated code"
+#Region "Component Designer generated code"
         ''' <summary> 
         ''' Required method for Designer support - do not modify 
         ''' the contents of this method with the code editor.
@@ -160,7 +160,7 @@ Namespace CustomControlInGrid
             Me.ResumeLayout(False)
         End Sub
 
-'#End Region
+#End Region
         Private dateEdit_Begin As DevExpress.XtraEditors.DateEdit
 
         Private dateEdit_End As DevExpress.XtraEditors.DateEdit

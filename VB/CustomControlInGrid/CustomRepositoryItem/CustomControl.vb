@@ -11,7 +11,7 @@ Namespace CustomControlInGrid
         Inherits BaseEdit
         Implements IAutoHeightControl
 
-'#Region "IAutoHeightControl implement"
+#Region "IAutoHeightControl implement"
         Private ReadOnly Property SupportsAutoHeight As Boolean Implements IAutoHeightControl.SupportsAutoHeight
             Get
                 Return True
@@ -47,7 +47,7 @@ Namespace CustomControlInGrid
             Return Height
         End Function
 
-'#End Region
+#End Region
         Shared Sub New()
             CustomRepositoryItem.Register()
         End Sub

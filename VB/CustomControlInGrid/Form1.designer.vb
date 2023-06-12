@@ -19,7 +19,7 @@ Namespace CustomControlInGrid
             MyBase.Dispose(disposing)
         End Sub
 
-'#Region "Windows Form Designer generated code"
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -385,7 +385,7 @@ Namespace CustomControlInGrid
             Me.ResumeLayout(False)
         End Sub
 
-'#End Region
+#End Region
         Private projectLayoutControl1 As CustomControlInGrid.ProjectLayoutControl
 
         Private gridControl1 As DevExpress.XtraGrid.GridControl

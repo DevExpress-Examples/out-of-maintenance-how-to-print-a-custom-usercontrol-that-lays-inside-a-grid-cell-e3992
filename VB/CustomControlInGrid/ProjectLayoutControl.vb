@@ -69,7 +69,7 @@ Namespace CustomControlInGrid
             RaiseEvent EditValueChanged(Me, EventArgs.Empty)
         End Sub
 
-'#Region "IExport Members"
+#Region "IExport Members"
         Private Sub ExportProgressBar(ByVal info As PrintCellHelperInfo, ByVal brick As PanelBrick)
             Dim rect As Rectangle = progressBarControl1.Bounds
             rect.Width = info.Rectangle.Right - rect.X - info.Rectangle.X
@@ -143,7 +143,7 @@ Namespace CustomControlInGrid
             ExportPanel(info, brick)
             Return brick
         End Function
-'#End Region
+#End Region
     End Class
 
     Friend Class ProjectTime
